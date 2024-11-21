@@ -7,9 +7,9 @@ ensuring only authorized users can access or modify data.
 
 🔐 Authentication
 
-    Secure user login and registration using JWT (JSON Web Tokens).
-    Passwords hashed with bcrypt for enhanced security.
-    Token-based protected routes for authorization.
+  Secure user login and registration using JWT (JSON Web Tokens).
+ Passwords hashed with bcrypt for enhanced security.
+ Token-based protected routes for authorization.
 
 🏫 Role-Based Management
 
