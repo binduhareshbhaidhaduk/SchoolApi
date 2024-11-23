@@ -16,6 +16,8 @@ ensuring only authorized users can access or modify data.
   Admin:
       Manage students, teachers, and classes.
       Add, update, or delete records.
+  Principal:
+      Manage students, teachers, and classes.
   Teacher:
       Access and manage assigned students.
   Student:
@@ -25,9 +27,9 @@ ensuring only authorized users can access or modify data.
 
   CRUD operations for:
   1.Students
-  2.Teachers
-  3.Classes
-  4.Subjects
+  2.Principal
+  3.Teachers
+  4.Classes
   
   Secure Operations: All endpoints are protected by JWT-based authentication and role-based access control.
 
@@ -36,7 +38,7 @@ ensuring only authorized users can access or modify data.
 
   Backend: Node.js with Express.js
   
-  Database: PostgreSQL
+  Database: MongoDb
   
   Authentication: JSON Web Tokens (JWT)
   
